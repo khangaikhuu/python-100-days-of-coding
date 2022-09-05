@@ -1,6 +1,6 @@
-two_digit_number = int(input('Give a Number \n'))
+two_digit_number = input('Give a Number \n')
 
-first_number = int(two_digit_number / 10)
-second_number = two_digit_number % 10
+first_digit = two_digit_number[0]
+second_digit = two_digit_number[1]
 
-print(first_number + second_number)
+print(int(first_digit) + int(second_digit))
