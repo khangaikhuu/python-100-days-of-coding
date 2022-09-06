@@ -30,3 +30,12 @@ if condition:
   do this
 else:
  do this
+
+# if/ elif / else
+
+if condition1:
+ do A
+elif condition2:
+ do B
+else:
+ do C
