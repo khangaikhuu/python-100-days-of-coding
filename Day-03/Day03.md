@@ -20,3 +20,13 @@ Operator	Meaning
  <		 Less Than
  >=		 Greater than or equal to
  <=		 Less than or equal to
+
+# Nested conditions
+
+if condition:
+ if another condition:
+  do this
+ else:
+  do this
+else:
+ do this
