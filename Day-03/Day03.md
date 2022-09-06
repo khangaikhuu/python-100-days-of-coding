@@ -12,3 +12,11 @@ if water_level > 80:
 else:
  print("Continue")
 
+
+# Comparison Operators
+
+Operator	Meaning
+ >		 Greater Than
+ <		 Less Than
+ >=		 Greater than or equal to
+ <=		 Less than or equal to
