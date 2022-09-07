@@ -39,3 +39,19 @@ elif condition2:
  do B
 else:
  do C
+
+
+# Multiple conditions on the same line of code
+
+if condition1 & condition2 $ condition3:
+  do A
+else:
+  do B
+
+# Logical Operators
+
+A and B 
+
+A or B
+
+not A
