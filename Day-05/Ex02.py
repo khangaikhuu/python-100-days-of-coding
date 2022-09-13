@@ -29,6 +29,16 @@ student_grades['Hermione'] = calculate_grades(student_scores['Hermione'])
 student_grades['Draco'] = calculate_grades(student_scores['Draco']) 
 student_grades['Neville'] = calculate_grades(student_scores['Neville']) 
     
+for student in student_scores:
+ score = student_scores[student]
+ if score > 90:
+  student_grades[student] = 'Outstanding'
+ elif score > 90: 
+  student_grades[student] = 'Exceeds Expectations'
+ elif score > 70:
+  student_grades[student] = 'Acceptable'
+ else:
+  student_grades[student] = 'Fail'
 
 # 🚨 Don't change the code below 👇
 print(student_grades)
