@@ -1,4 +1,5 @@
 def is_leap(year):
+  """Take a first and last name and format it to return the title case version of the name. """
   if year % 4 == 0:
     if year % 100 == 0:
       if year % 400 == 0:
